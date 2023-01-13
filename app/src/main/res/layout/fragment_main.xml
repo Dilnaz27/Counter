@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MainFragment">
+
+    <TextView
+        android:id="@+id/tv_zero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tv_zero"
+        android:layout_marginTop="@dimen/dimen_40dp"
+        android:textSize="@dimen/dimen_80sp"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_zero"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_80dp">
+
+        <Button
+            android:backgroundTint="@color/black"
+            android:id="@+id/btn_minus_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_minus_one"
+            android:textSize="@dimen/dimen_40sp"/>
+
+        <Button
+            android:backgroundTint="@color/black"
+            android:id="@+id/btn_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reset"
+            android:layout_marginLeft="@dimen/dimen_5dp"
+            android:layout_marginRight="@dimen/dimen_5dp"
+            android:textSize="@dimen/dimen_40sp"/>
+
+        <Button
+            android:backgroundTint="@color/black"
+            android:id="@+id/btn_plus_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_plus_one"
+            android:textSize="@dimen/dimen_40sp"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

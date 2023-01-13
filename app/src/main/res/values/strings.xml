@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">hw_2_3</string>
+    <string name="tv_zero">0</string>
+    <string name="tv_minus_one">-1</string>
+    <string name="tv_plus_one">+1</string>
+    <string name="reset">reset</string>
+
+</resources>
